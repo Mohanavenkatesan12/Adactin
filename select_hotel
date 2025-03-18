@@ -1,0 +1,5 @@
+public static void select_hotel() {
+		driver.findElement(By.xpath("//input[@name='radiobutton_0']")).click();
+		driver.findElement(By.xpath("//input[@name='continue']")).click();
+	}
+	

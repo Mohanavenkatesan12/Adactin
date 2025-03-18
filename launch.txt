@@ -1,0 +1,5 @@
+public static void launch() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mohan\\eclipse-workspace\\New_Java_Project\\Driver\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.get("https://adactinhotelapp.com/"); 
+	}

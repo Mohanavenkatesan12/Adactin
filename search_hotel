@@ -1,0 +1,10 @@
+public static void search_hotel() {
+		driver.findElement(By.xpath("//select[@name='location']")).sendKeys("London");
+		driver.findElement(By.xpath("//select[@name='hotels']")).sendKeys("Hotel Hervey");
+		driver.findElement(By.xpath("//select[@id='room_type']")).sendKeys("Deluxe");
+	    driver.findElement(By.xpath("//select[@id='room_nos']")).sendKeys("Three");
+	    driver.findElement(By.xpath("//select[@id='adult_room']")).sendKeys("4 - Four");
+	    driver.findElement(By.xpath("//select[@id='child_room']")).sendKeys("3 - Three");
+	    driver.findElement(By.xpath("//input[@id='Submit']")).click();
+	    
+	}

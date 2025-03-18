@@ -1,0 +1,12 @@
+public static void Book_A_Hotel() throws InterruptedException {
+		driver.findElement(By.xpath("//input[@name='first_name']")).sendKeys("Mohana");
+		driver.findElement(By.xpath("//input[@name='last_name']")).sendKeys("venkatesan");
+		driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys("Thiruvannamalai");
+		driver.findElement(By.xpath("//input[@name='cc_num']")).sendKeys("1234567890987654");
+		driver.findElement(By.xpath("//select[@name='cc_type']")).sendKeys("VISA");
+		driver.findElement(By.xpath("//select[@name='cc_exp_month']")).sendKeys("January");
+		driver.findElement(By.xpath("//select[@name='cc_exp_year']")).sendKeys("2012");
+		driver.findElement(By.xpath("//input[@name='cc_cvv']")).sendKeys("123");
+		driver.findElement(By.xpath("//input[@name='book_now']")).click();
+		Thread.sleep(2000);
+		}

@@ -1,0 +1,3 @@
+public static  void Booking_confirmation() {
+		driver.findElement(By.xpath("//a[@href='BookedItinerary.php']")).click();		
+	}

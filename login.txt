@@ -1,0 +1,5 @@
+public static void login() {
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin1122");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Bgopi@2109");
+		driver.findElement(By.xpath("//input[@name='login']")).click();
+	}

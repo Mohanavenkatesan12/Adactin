@@ -1,0 +1,6 @@
+public static void screenshot() throws IOException {
+		TakesScreenshot s= (TakesScreenshot)driver;
+		File source=s.getScreenshotAs(OutputType.FILE);
+		File target=new File("C:\\Users\\mohan\\eclipse-workspace\\New_Java_Project\\Screenshot\\file.png");
+		FileHandler.copy(source, target);
+	}

@@ -1,0 +1,3 @@
+public static void logout() {
+		driver.findElement(By.xpath("//a[text()='Logout']")).click();
+	}
